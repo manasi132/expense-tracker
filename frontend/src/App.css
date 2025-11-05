@@ -1,0 +1,24 @@
+/* Make sure this file is saved as App.css
+  in the *same folder* as App.js
+  (C:\budget tracker\Expense-Tracker-App\frontend\src)
+*/
+
+/* Center the app on the page and give it a max-width */
+.App-container {
+  max-width: 800px;
+  margin: 0 auto;
+}
+
+/* Add a subtle hover effect to cards */
+.card:hover {
+  transform: translateY(-3px);
+  box-shadow: 0 4px 12px rgba(0, 0, 0, 0.1) !important;
+  transition: all 0.2s ease-in-out;
+}
+
+/* Add a hover effect to transaction list items */
+.list-group-item:hover {
+  background-color: #f8f9fa;
+  transform: translateX(3px);
+  transition: all 0.2s ease-in-out;
+}
